@@ -1,3 +1,76 @@
+:root {
+  --default-font-family: "Roboto", sans-serif;
+  --button-font-family: "Montserrat", sans-serif;
+  --primary-color: #202020;
+  --secondary-color: #f65282;
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+}
+
 h1 {
-  font-family: "Roboto", sans-serif;
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 72px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: regular;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+p {
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+
+a {
+  font-family: var(--button-font-family);
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  padding: 18px 30px;
+  background: white;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+.hero {
+  text-align: center;
+  background-image: url("/images/rose.jpg");
+  padding-top: 276px;
+  padding-bottom: 301px;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  a {
+    font-size: 12px;
+  }
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
