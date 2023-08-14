@@ -1,13 +1,13 @@
 :root {
   --default-font-family: "Roboto", sans-serif;
   --button-font-family: "Montserrat", sans-serif;
-  --primary-color: #202020;
+  --primary-color: #141517;
   --secondary-color: #f65282;
 }
 
 body {
   background-color: var(--primary-color);
-  margin: 0;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -47,6 +47,20 @@ a {
   font-size: 14px;
   border-radius: 50px;
 }
+hr {
+  color: white;
+  width: 600px;
+  display: block;
+  margin: 30px auto;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.container h1 {
+  font-size: 40px;
+}
 
 .hero {
   text-align: center;
@@ -54,6 +68,12 @@ a {
   padding-top: 276px;
   padding-bottom: 301px;
   background-size: cover;
+}
+
+.featured {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 @media (max-width: 576px) {
@@ -72,5 +92,16 @@ a {
   .hero {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  hr {
+    max-width: 350px;
+  }
+  .container {
+    text-align: center;
+  }
+
+  .container h1 {
+    font-size: 30px;
+    margin-top: 15px;
   }
 }
