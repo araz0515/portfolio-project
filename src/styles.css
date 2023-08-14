@@ -75,6 +75,9 @@ img {
   font-weight: bold;
   font-size: 25px;
 }
+.weather-project {
+  text-align: end;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -103,5 +106,8 @@ img {
   .container h1 {
     font-size: 30px;
     margin-top: 15px;
+  }
+  .weather-project {
+    text-align: center;
   }
 }
