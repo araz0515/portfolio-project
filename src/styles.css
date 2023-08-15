@@ -46,6 +46,7 @@ a {
   background: white;
   font-size: 14px;
   border-radius: 50px;
+  line-height: 0.7;
 }
 hr {
   color: white;
@@ -54,7 +55,7 @@ hr {
   margin: 30px auto;
 }
 
-img {
+.project-img {
   border-radius: 15px;
 }
 
@@ -77,6 +78,35 @@ img {
 }
 .weather-project {
   text-align: end;
+}
+
+.about-text {
+  margin-left: 40px;
+}
+.about-h2 {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 32px;
+  margin-top: 51px;
+}
+
+.about-h1 {
+  font-size: 64px;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.about-p {
+  font-size: 18px;
+  margin-bottom: 62px;
+}
+
+ul.socials-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 100px;
 }
 
 @media (max-width: 576px) {
@@ -102,7 +132,6 @@ img {
   .container {
     text-align: center;
   }
-
   .container h1 {
     font-size: 30px;
     margin-top: 15px;
