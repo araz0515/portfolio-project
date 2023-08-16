@@ -197,6 +197,12 @@ ul.footer-social-icons li {
   margin-left: 20px;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: center;
+  line-height: 15px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
