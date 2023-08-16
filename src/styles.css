@@ -134,6 +134,9 @@ ul.socials-icons {
   align-items: center;
 }
 
+.gallery-h1 {
+  margin-bottom: 166px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
