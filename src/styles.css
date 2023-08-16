@@ -220,6 +220,9 @@ ul.footer-social-icons li {
     padding-bottom: 100px;
   }
 
+  ul a {
+    font-size: 18px;
+  }
   .hero-p {
     max-width: 300px;
   }
