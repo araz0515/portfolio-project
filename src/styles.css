@@ -188,7 +188,7 @@ i {
     font-size: 30px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   p {
     font-size: 15px;
@@ -203,8 +203,9 @@ i {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  hr {
-    max-width: 350px;
+
+  .hero-p {
+    max-width: 400px;
   }
   .container {
     text-align: center;
@@ -225,8 +226,15 @@ i {
     display: block;
     margin: 0 auto;
   }
-  .navbar ul {
+
+  ul.nav-list {
     display: block;
     margin: 0 auto;
+    padding: 0;
+  }
+
+  .gallery-h1,
+  .contact-h1 {
+    margin-bottom: 80px;
   }
 }
