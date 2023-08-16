@@ -37,7 +37,7 @@ p {
   margin-bottom: 48px;
 }
 
-a {
+a.button-link {
   font-family: var(--button-font-family);
   text-transform: uppercase;
   color: black;
@@ -145,6 +145,14 @@ ul.social-icons {
   color: #f65282;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.logo {
+  height: 42px;
+}
+ul.nav-list {
+  display: inline;
+  list-style: none;
 }
 
 i {
