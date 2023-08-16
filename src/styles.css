@@ -73,6 +73,7 @@ hr {
 .hero {
   text-align: center;
   background-image: url("/images/background.png");
+  background-position: center;
   padding-top: 276px;
   padding-bottom: 301px;
   background-size: cover;
