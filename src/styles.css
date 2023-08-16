@@ -113,10 +113,10 @@ hr {
 .about-p {
   font-size: 18px;
   margin-bottom: 62px;
-  width: 500px;
+  max-width: 500px;
 }
 
-ul.socials-icons {
+ul.social-icons {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -141,10 +141,16 @@ ul.socials-icons {
   h1 {
     font-size: 30px;
   }
+  .about-h1 {
+    font-size: 30px;
+  }
   h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   p {
+    font-size: 15px;
+  }
+  .about-p {
     font-size: 15px;
   }
   a {
@@ -166,5 +172,14 @@ ul.socials-icons {
   }
   .weather-project {
     text-align: center;
+  }
+  .about-section {
+    margin: 25px;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: block;
+    margin: 0 auto;
   }
 }
