@@ -7,7 +7,6 @@
 
 body {
   background-color: var(--primary-color);
-  margin-bottom: 50px;
 }
 
 h1 {
@@ -180,6 +179,23 @@ a.active {
 i {
   color: white;
 }
+
+footer {
+  background-color: #2d2727;
+  align-items: center;
+}
+.footer-logo {
+  max-width: 150px;
+  height: 30px;
+}
+.footer {
+  align-items: center;
+  margin-top: 100px;
+}
+ul.footer-social-icons li {
+  margin-left: 20px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
@@ -236,5 +252,12 @@ i {
   .gallery-h1,
   .contact-h1 {
     margin-bottom: 80px;
+  }
+  ul.footer-social-icons {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .footer-li-1 {
+    padding-left: 0;
   }
 }

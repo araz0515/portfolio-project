@@ -34,20 +34,20 @@
   </head>
   <body>
     <nav>
-      <div class="navbar p-5">
-        <img
-          src="images/shecodes-logo.png"
-          alt="shecodes logo"
-          class="logo img-fluid d-none d-md-block"
-        />
-        <div class="container">
-          <ul class="nav-list">
-            <li><a href="/" class="active">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/gallery.html">Gallery</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
-        </div>
+      <div class="navbar p-5 d-flex justify-content-between">
+        <a href="/"
+          ><img
+            src="images/shecodes-logo.png"
+            alt="shecodes logo"
+            class="logo img-fluid d-none d-md-block"
+        /></a>
+
+        <ul class="nav-list">
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
       </div>
     </nav>
     <div class="hero">
@@ -73,5 +73,40 @@
         <img src="/images/row-4.png" alt="" class="mt-5 img-fluid" />
       </div>
     </div>
+
+    <footer>
+      <div class="container d-flex justify-content-between footer p-5">
+        <img
+          src="images/shecodes-logo.png"
+          alt="shecodes logo"
+          class="footer-logo d-none d-md-block"
+        />
+
+        <ul class="footer-social-icons mb-0 text-center">
+          <li class="footer-li-1">
+            <a href="https://facebook.com" target="_blank"
+              ><img src="/images/facebook-logo.png" alt="facebook logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><img
+                src="/images/instagram-logo.png"
+                alt="instagram logo"
+                class="ps-5"
+            /></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank"
+              ><img src="/images/linkedin-logo.png" alt="linkedin logo"
+            /></a>
+          </li>
+        </ul>
+
+        <p class="mb-0 d-none d-md-block">
+          © 2021 SheCodes All rights reserved
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
