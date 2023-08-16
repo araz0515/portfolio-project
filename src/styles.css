@@ -137,6 +137,19 @@ ul.social-icons {
 .gallery-h1 {
   margin-bottom: 166px;
 }
+
+.contact-h1 {
+  margin-bottom: 142px;
+}
+.contact-h3 {
+  color: #f65282;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+i {
+  color: white;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
