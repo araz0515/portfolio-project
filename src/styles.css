@@ -55,6 +55,21 @@ hr {
   margin: 30px auto;
 }
 
+.brand-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-left: 140px;
+}
+.footer-brand-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
 .hero-p {
   width: 400px;
   display: block;
@@ -149,10 +164,6 @@ ul.social-icons {
 
 .navbar {
   background-color: #202020;
-}
-.logo {
-  max-width: 150px;
-  margin-left: 140px;
 }
 ul.nav-list {
   list-style: none;
